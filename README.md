@@ -10,11 +10,6 @@ yarn install
 yarn serve
 ```
 
-### App uses JSON Server for fake API so it needs to be installed
-```
-yarn add json-server
-```
-
 ### In the root folder of the app you will find db.json file, so to run server type:
 ```
 json-server db.json
