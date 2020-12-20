@@ -1,12 +1,9 @@
 import { createStore } from 'vuex'
 
+import roles from '@/app/dashboard/store'
+
 export default createStore({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    roles
   }
 })

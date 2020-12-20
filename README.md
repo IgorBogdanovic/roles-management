@@ -1,6 +1,6 @@
 # roles-management
 
-## Project setup
+### Project setup
 ```
 yarn install
 ```
@@ -10,15 +10,20 @@ yarn install
 yarn serve
 ```
 
-### Compiles and minifies for production
+### App uses JSON Server for fake API so it needs to be installed
 ```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
+yarn add json-server
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### In the root folder of the app you will find db.json file, so to run server type:
+```
+json-server db.json
+```
+
+### Technologies used
+- Vue CLI
+- Vue
+- Vue Router
+- Vuex
+- Axios
+- JSON Server
